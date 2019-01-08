@@ -90,6 +90,10 @@ Frontend Technologies
 ## How can I modify the theme ?
 
 First, install [jekyll](https://jekyllrb.com/) and [node.js](https://nodejs.org/).
+ install [jekyll]
+ tip: https://www.jianshu.com/p/88e3474cef72
+ 
+ 
 
 1. Fork the theme with your username, example: `charlie.github.io`
 2. Clone repository to your computer
