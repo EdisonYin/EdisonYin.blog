@@ -42,9 +42,12 @@ links:
     - title: tags
       url: /tags
       key_trigger: 4
-    - title: about me
-      url: /about
+    - title: about project
+      url: /about-project
       key_trigger: 5
+    - title: about me
+      url: /about-me
+      key_trigger: 6
   section_2:
     - title: github
       url: https://github.com/EdisonYin
