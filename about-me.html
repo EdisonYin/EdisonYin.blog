@@ -1,0 +1,50 @@
+---
+layout: compress
+title: "About my project"
+permalink: /about-me/index.html
+description: "Some description about Victor Igor..."
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+		{% include head.html %}
+    <body>
+		<div class="about-me-info">
+			<div class="question">
+				<div class="question-content">Do you know my name? If you know my name that you can input the key know me.</div>
+			</div>
+			<div class="answer-container">
+				<input type="text" class="search-field" name="answer" id="answer">
+				<button class="submit" name="submit" onclick="submit()">submit</button>
+			</div>
+			<div class="tip-message-container">
+        <div class="tip-message"></div>
+			</div>
+			<div class="music-container">
+					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=19160885&auto=1&height=66"></iframe>
+			</div>
+		</div>
+		</body>
+		<script type="text/javascript">
+			function submit() {
+				var answerStr = document.getElementById('answer').value;
+				if (answerStr != "" && isCorrect(answerStr)) {
+					confirm();
+				} else {
+           alert("ERROR");
+				}
+			};
+
+			function isCorrect(key) {
+				return key == "handsome boy"
+			}
+
+			function confirm() {
+				var name,age;
+				name=prompt("请问你叫什么名字?");
+				alert(name);
+				age=prompt("你今年多大了?","请在这里输入年龄"); 
+				alert(age);
+			};
+		</script>
+</html>
