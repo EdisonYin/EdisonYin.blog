@@ -1,6 +1,6 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
+title: Edison Yin - Web Developer
+description: "A blog, source code from lorem ipsum, just make some change and study jeklly and gulp in web development"
 #baseurl: "http://localhost:3000/" # for test: remove string '/space-jekyll-template' to ''
 #url: "http://localhost:3000/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 baseurl: "/" # for test: remove string '/space-jekyll-template' to ''
